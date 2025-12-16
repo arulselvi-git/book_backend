@@ -1,0 +1,41 @@
+# =====================
+# Node / Backend
+# =====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =====================
+# Environment files (IMPORTANT)
+# =====================
+.env
+.env.local
+.env.development
+.env.production
+
+# =====================
+# Build folders
+# =====================
+dist/
+build/
+
+# =====================
+# Logs
+# =====================
+logs/
+*.log
+
+# =====================
+# OS / Editor files
+# =====================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# =====================
+# Uploaded / Generated files
+# =====================
+public/book-images/
+uploads/
