@@ -18,7 +18,7 @@ jobs:
         with:
           host: ${{ secrets.EC2_HOST }}
           username: ubuntu
-          key: ${{ secrets.EC2_SSH_KEY }}
+          key: ${{ secrets.EC2_SSH_KEY_ }}
           port: 5000
           script: |
             cd /home/ubuntu || exit 1
